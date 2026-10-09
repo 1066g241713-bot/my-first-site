@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>川口晴楓のサイト</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js">
+        let jikan = new Date();
+        let hour = jikan.getHours();
+        let minute = jikan.getMinutes();
+        let secound = jikan.getSeconds();
+        let month = jikan.getMounth() + 1;
+        let date = jikan.getDate();
+        let weekday = jikan.getDay();
+        window.alert("今日は令和" + year + "年" + month + "月" + date + "日です");
+        if(weekday == 5){
+             window.alert("今日は木曜日です");
+        }else{
+             window.alert("今日は木曜日ではありません");
+        }
+        window.alert("ようこそ！現在は” + hour + "時" + minute + "分" + secound + "秒です");
+    </script>
+</head>
+<body>
+    <div id="header">
+        <h2>川口晴楓のサイト</h2>
+    </div>
+    <div id="main">
+        <h2>見出し1</h2>
+        <p>ここに文章がはいります。</p>
+        <h2>見出し2</h2>
+        <p>ここに文章は入ります。</p>
+    </div>
+    <div id="foooter">
+         <p>copyright(c)2026 haruka kawaguchi.All right reserved.</p>    
+    </div>
+</body>
+</html>
